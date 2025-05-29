@@ -1,0 +1,10 @@
+{
+    "name": "@task-manager/feature-y",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "dependencies": {
+      "react": "^18.2.0",
+      "@task-manager/ui-components": "*",
+      "@task-manager/utils": "*"
+    }
+  }

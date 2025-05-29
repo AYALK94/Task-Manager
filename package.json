@@ -1,0 +1,12 @@
+{
+    "name": "task-manager",
+    "private": true,
+    "workspaces": ["packages/*"],
+    "scripts": {
+      "start": "yarn workspace @task-manager/app dev",
+      "build": "yarn workspaces run build"
+    },
+    "devDependencies": {
+      "yarn": "^1.22.22"
+    }
+  }
